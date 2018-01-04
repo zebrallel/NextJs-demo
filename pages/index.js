@@ -1,4 +1,8 @@
-const Index = ()=>{
-    <div><p>Hello next.js</p></div>
+const Index = () => {
+    return (
+        <div>
+            <p>Hello next.js</p>
+        </div>
+    )
 }
-export default Index;
+export default Index
