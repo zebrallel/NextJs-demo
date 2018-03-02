@@ -1,14 +1,15 @@
 import Person from './Person';
 import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const Index = ({name, age}) => {
     return (
-        <div>
+        <Layout>
             <Person />
             <Link href="/about">
                 <a>about</a>
             </Link>
-        </div>
+        </Layout>
     )
 }
 

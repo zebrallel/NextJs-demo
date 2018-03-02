@@ -1,3 +1,4 @@
+import './Person.scss'
 import React from 'react'
 
 class Person extends React.Component {

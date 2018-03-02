@@ -1,4 +1,5 @@
-module.exports = {
+const withSass = require('@zeit/next-sass')
+module.exports = withSass({
     webpack: (config, { buildId, dev }) => {
         // Perform customizations to webpack config
 
@@ -11,4 +12,4 @@ module.exports = {
         // Important: return the modified config
         return config
     }
-}
+})
